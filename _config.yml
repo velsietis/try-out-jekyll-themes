@@ -1,0 +1,8 @@
+title: Try Out
+
+defaults:
+  -
+    scope:
+      path: "" # empty string here means all files in the project
+    values:
+      layout: "default"
