@@ -1,5 +1,7 @@
 title: Try Out
 
+baseurl: /try-out-jekyll-themes
+
 defaults:
   -
     scope:
