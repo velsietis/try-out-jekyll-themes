@@ -2,6 +2,8 @@ title: Try Out
 
 baseurl: /try-out-jekyll-themes
 
+permalink: pretty
+
 defaults:
   -
     scope:
