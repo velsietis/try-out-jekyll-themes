@@ -3,7 +3,7 @@
     <head>
         <title>{{ page.title }} | {{ site.title }}</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap/docs/4.4/docs.min.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap/docs/4.4/docs.min.css">
     </head>
     <body>        
     <a id="skippy" class="sr-only sr-only-focusable" href="#content">
@@ -30,5 +30,10 @@
         </main>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/mermaid-render.js"></script>
+
+    <script src="{{ site.baseurl }}/assets/js/deflate.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/plantuml-render.js"></script>
     </body>
 </html>
